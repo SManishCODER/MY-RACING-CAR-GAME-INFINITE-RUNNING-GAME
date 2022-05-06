@@ -1,5 +1,5 @@
-var path,coin,policecar,policecar2,policecar3,maincar,energydrink, missile,title;
-var pathImg,coinImg,policecarImg,policecar2Img,policecar3Img,maincarImg,energydrinkImg,missileImg,titleImg;
+var path,coin,policecar,policecar2,policecar3,maincar,energydrink, missile;
+var pathImg,coinImg,policecarImg,policecar2Img,policecar3Img,maincarImg,energydrinkImg,missileImg;
 var HISCORE=300;
 var Score=0;
 var policecarG,policecar2G,policecar3G,energydrinkG,coinG,missileG;
@@ -29,7 +29,7 @@ function preload(){
   energydrinkImg = loadImage("fuel.png");
   gameoverImg=loadImage("gameOver.png");
   restartImg=loadImage("reset.png");
-  titleImg=loadImage("title.png");
+  
  
 }
 
